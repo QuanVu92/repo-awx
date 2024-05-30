@@ -1,0 +1,6 @@
+[submodule "roles/ansible-role-create-users"]
+	path = roles/ansible-role-create-users
+	url = https://github.com/QuanVu92/repo-awx.git
+[submodule "roles/ansible-role-node_exporter"]
+	path = roles/ansible-role-node_exporter
+	url = https://github.com/QuanVu92/repo-awx.git
