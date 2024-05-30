@@ -1,5 +1,5 @@
 - name: Deploy node_exporter service
-  hosts: node_exporter
+  hosts: all
   gather_facts: false
   become: true
   roles:
