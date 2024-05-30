@@ -2,7 +2,9 @@
   hosts: all
   gather_facts: false
   become: true
-  become_method: su
+  become_method: sudo
+  become_user: ansible
+  timeout: 30 
   roles:
     - role: node_exporter
       state: present
